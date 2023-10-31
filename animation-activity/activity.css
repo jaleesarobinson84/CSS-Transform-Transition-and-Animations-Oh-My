@@ -28,16 +28,15 @@ nav {
 }
 
 @keyframes top {
-  from {}
+ from {transform: rotate(75deg);}
   to {}
 }
 
 @keyframes middle {
   from {}
-  to {}
+  to {visibility: hidden;}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+from {transform: rotate(90deg);}
 }
